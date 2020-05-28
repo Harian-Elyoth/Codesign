@@ -1,4 +1,17 @@
-C:/Users/axel/Desktop/Travail/Codesign/Codesign/ip/Layer3Calculator.vhd {0 {vcom -work work -2002 -explicit -stats=none C:/Users/axel/Desktop/Travail/Codesign/Codesign/ip/Layer3Calculator.vhd
+C:/Users/axel/Desktop/Travail/Codesign/Codesign/ip/Layer3Divided.vhd {2 {vcom -work work -2002 -explicit -stats=none C:/Users/axel/Desktop/Travail/Codesign/Codesign/ip/Layer3Divided.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 17 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading package bus_multiplexer_pkg
+-- Compiling entity Layer3Divided
+-- Compiling architecture RTL of Layer3Divided
+** Warning: C:/Users/axel/Desktop/Travail/Codesign/Codesign/ip/Layer3Divided.vhd(164): (vcom-1090) Possible infinite loop: Process contains no WAIT statement.
+
+} {} {}} C:/Users/axel/Desktop/Travail/Codesign/Codesign/ip/Layer3Calculator.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/axel/Desktop/Travail/Codesign/Codesign/ip/Layer3Calculator.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 17 2019
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -9,32 +22,6 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 
 -- Loading package bus_multiplexer_pkg
 -- Compiling entity Layer3Calculator
 -- Compiling architecture RTL of Layer3Calculator
-** Error: C:/Users/axel/Desktop/Travail/Codesign/Codesign/ip/Layer3Calculator.vhd(137): near ")": syntax error
-** Error: C:/Users/axel/Desktop/Travail/Codesign/Codesign/ip/Layer3Calculator.vhd(138): near ")": syntax error
-** Error: C:/Users/axel/Desktop/Travail/Codesign/Codesign/ip/Layer3Calculator.vhd(139): near ")": syntax error
-** Error: C:/Users/axel/Desktop/Travail/Codesign/Codesign/ip/Layer3Calculator.vhd(140): near ")": syntax error
-** Error: C:/Users/axel/Desktop/Travail/Codesign/Codesign/ip/Layer3Calculator.vhd(141): near ")": syntax error
-** Error: C:/Users/axel/Desktop/Travail/Codesign/Codesign/ip/Layer3Calculator.vhd(142): near ")": syntax error
-** Error: C:/Users/axel/Desktop/Travail/Codesign/Codesign/ip/Layer3Calculator.vhd(143): near ")": syntax error
-** Error: C:/Users/axel/Desktop/Travail/Codesign/Codesign/ip/Layer3Calculator.vhd(144): near ")": syntax error
-** Note: C:/Users/axel/Desktop/Travail/Codesign/Codesign/ip/Layer3Calculator.vhd(146): VHDL Compiler exiting
-
-} {12.0 20.0} {}} C:/Users/axel/Desktop/Travail/Codesign/Codesign/ip/sigmoid.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/axel/Desktop/Travail/Codesign/Codesign/ip/sigmoid.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 17 2019
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package std_logic_arith
--- Loading package STD_LOGIC_UNSIGNED
--- Compiling entity sigmoid
--- Compiling architecture sigmoid_arch of sigmoid
-
-} {} {}} C:/Users/axel/Desktop/Travail/Codesign/Codesign/ip/bus_multiplexer.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/axel/Desktop/Travail/Codesign/Codesign/ip/bus_multiplexer.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 17 2019
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling package bus_multiplexer_pkg
 
 } {} {}} C:/Users/axel/Desktop/Travail/Codesign/Codesign/ip/oneNeuroneCalculator.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/axel/Desktop/Travail/Codesign/Codesign/ip/oneNeuroneCalculator.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 17 2019
@@ -47,5 +34,22 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 
 -- Loading package bus_multiplexer_pkg
 -- Compiling entity oneNeuroneCalculator
 -- Compiling architecture RTL of oneNeuroneCalculator
+
+} {} {}} C:/Users/axel/Desktop/Travail/Codesign/Codesign/ip/bus_multiplexer.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/axel/Desktop/Travail/Codesign/Codesign/ip/bus_multiplexer.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 17 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package bus_multiplexer_pkg
+
+} {} {}} C:/Users/axel/Desktop/Travail/Codesign/Codesign/ip/sigmoid.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/axel/Desktop/Travail/Codesign/Codesign/ip/sigmoid.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 17 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity sigmoid
+-- Compiling architecture sigmoid_arch of sigmoid
 
 } {} {}}

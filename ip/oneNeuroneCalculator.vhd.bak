@@ -28,7 +28,7 @@ signal multSig	:	std_logic_vector((2*NEURONE_SIZE)-1 downto 0);
 
 begin
 
-	multSig <= std_logic_vector(unsigned(weights(26*6*i+1+6*(n+5*m)+1)) * unsigned(neurones(13*13*offset+13*(2*j+m)+(2*k+n))));
+	multSig <= std_logic_vector(unsigned(weights(26*6*i+1+6*(n+5*m)+offset)) * unsigned(neurones(13*13*offset+13*(2*j+m)+(2*k+n))));
 
 	mult <= multSig;
 

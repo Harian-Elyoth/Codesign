@@ -6,7 +6,7 @@ use work.bus_multiplexer_pkg.all;
 
 entity oneNeuroneCalculator is
 	generic(
-		NEURONE_LIST_SIZE	:	natural := 1014;
+		NEURONE_LIST_SIZE	:	natural := 1255;
 		NEURONE_SIZE		:	natural := 16
 	);
 	port (
